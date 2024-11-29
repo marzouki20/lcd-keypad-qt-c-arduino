@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>500</y>
+      <width>97</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>271</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    font-family: Arial, sans-serif;   /* Sets font */
+    font-size: 14px;                  /* Sets font size */
+    color: #333333;                   /* Sets text color */
+    background-color: transparent;    /* Sets transparent background */
+    border: 1px solid #cccccc;        /* Adds a border */
+    padding: 5px 10px;                /* Adds padding inside the label */
+    border-radius: 5px;               /* Rounds the corners of the border */
+    text-align: center;               /* Aligns text to the center */
+}
+
+QLabel#yourLabelName {
+    color: #0000ff;                   /* Changes color for a specific label by ID */
+    font-size: 16px;                  /* Changes font size for a specific label */
+    font-weight: bold;                /* Makes the text bold */
+    background-color: #f0f0f0;        /* Adds a light gray background */
+    border: 2px solid #0077cc;        /* Adds a custom border for the specific label */
+}
+
+QLabel:hover {
+    background-color: #f5f5f5;        /* Changes background color on hover */
+    border-color: #888888;            /* Changes border color on hover */
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="passwordLabel">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>140</y>
+      <width>291</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    font-family: Arial, sans-serif;   /* Sets font */
+    font-size: 14px;                  /* Sets font size */
+    color: #333333;                   /* Sets text color */
+    background-color: transparent;    /* Sets transparent background */
+    border: 1px solid #cccccc;        /* Adds a border */
+    padding: 5px 10px;                /* Adds padding inside the label */
+    border-radius: 5px;               /* Rounds the corners of the border */
+    text-align: center;               /* Aligns text to the center */
+}
+
+QLabel#yourLabelName {
+    color: #0000ff;                   /* Changes color for a specific label by ID */
+    font-size: 16px;                  /* Changes font size for a specific label */
+    font-weight: bold;                /* Makes the text bold */
+    background-color: #f0f0f0;        /* Adds a light gray background */
+    border: 2px solid #0077cc;        /* Adds a custom border for the specific label */
+}
+
+QLabel:hover {
+    background-color: #f5f5f5;        /* Changes background color on hover */
+    border-color: #888888;            /* Changes border color on hover */
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>320</y>
+      <width>321</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    font-family: Arial, sans-serif;   /* Sets font */
+    font-size: 14px;                  /* Sets font size */
+    color: #333333;                   /* Sets text color */
+    background-color: transparent;    /* Sets transparent background */
+    border: 1px solid #cccccc;        /* Adds a border */
+    padding: 5px 10px;                /* Adds padding inside the label */
+    border-radius: 5px;               /* Rounds the corners of the border */
+    text-align: center;               /* Aligns text to the center */
+}
+
+QLabel#yourLabelName {
+    color: #0000ff;                   /* Changes color for a specific label by ID */
+    font-size: 16px;                  /* Changes font size for a specific label */
+    font-weight: bold;                /* Makes the text bold */
+    background-color: #f0f0f0;        /* Adds a light gray background */
+    border: 2px solid #0077cc;        /* Adds a custom border for the specific label */
+}
+
+QLabel:hover {
+    background-color: #f5f5f5;        /* Changes background color on hover */
+    border-color: #888888;            /* Changes border color on hover */
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>63</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ID</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>110</y>
+      <width>91</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>mot de pass</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>290</y>
+      <width>63</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>result</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
